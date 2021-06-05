@@ -1,0 +1,14 @@
+endpoints:
+  enabled: true
+  info:
+    enabled: true
+  health:
+    enabled: true
+  metrics:
+    enabled: true
+
+
+  security:
+    basic:
+      enabled: false
+    ignored: /**
